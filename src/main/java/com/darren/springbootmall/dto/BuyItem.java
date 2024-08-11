@@ -11,5 +11,4 @@ import javax.validation.constraints.NotNull;
 public class BuyItem {
     private Integer productId;
     private Integer quantity;
-
 }
