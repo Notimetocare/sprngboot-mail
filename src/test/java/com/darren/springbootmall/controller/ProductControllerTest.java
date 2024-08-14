@@ -63,7 +63,7 @@ public class ProductControllerTest {
         productRequest.setProductName("test food product");
         productRequest.setCategory(ProductCategory.FOOD);
         productRequest.setImageUrl("http://test.com");
-        productRequest.setPrice(100);
+        productRequest.setPrice(100.0);
         productRequest.setStock(2);
 
         String json = objectMapper.writeValueAsString(productRequest);
@@ -110,7 +110,7 @@ public class ProductControllerTest {
         productRequest.setProductName("test food product");
         productRequest.setCategory(ProductCategory.FOOD);
         productRequest.setImageUrl("http://test.com");
-        productRequest.setPrice(100);
+        productRequest.setPrice(100.0);
         productRequest.setStock(2);
 
         String json = objectMapper.writeValueAsString(productRequest);
@@ -157,7 +157,7 @@ public class ProductControllerTest {
         productRequest.setProductName("test food product");
         productRequest.setCategory(ProductCategory.FOOD);
         productRequest.setImageUrl("http://test.com");
-        productRequest.setPrice(100);
+        productRequest.setPrice(100.0);
         productRequest.setStock(2);
 
         String json = objectMapper.writeValueAsString(productRequest);
